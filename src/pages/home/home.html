@@ -9,6 +9,12 @@
 
 <ion-content class="page-home">
 
+  <ion-list>
+    <button ion-item *ngFor="let user of users">
+      {{ user }}
+    </button>
+  </ion-list>
+
   <ion-card>
     <img src="assets/images/home-card-background.png"/>
     <div class="card-title">Important</div>
